@@ -8,6 +8,8 @@ https://connect.nrwl.io/app/dashboard
 C:\react\myorg3>nx serve todos              http://localhost:4200/
 C:\react\myorg3>nx e2e todos-e2e --watch
 
+
+
 ==================================================================================
 
 C:\react>npx create-nx-workspace@latest myorg3
