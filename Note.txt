@@ -100,3 +100,9 @@ C:\react\myorg3>nx affected:libs
 C:\react\myorg3>nx affected:test                        <<< to retest only the projects affected by the change.
 C:\react\myorg3>nx affected:test --only-failed          <<< to retest only the projects affected by the change.
 C:\react\myorg3>nx affected:test --parallel             <<< to test affected projects in parallel
+
+C:\react\myorg3>nx affected:build                       <<< it does not rebuild ui for lib changes. By default, Nx only builds libraries in the context of an application.
+C:\react\myorg3>nx affected --target=build              <<< equivalent to the above command.
+C:\react\myorg3>nx affected --target=invalid --base=master
+
+
