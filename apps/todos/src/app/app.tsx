@@ -58,8 +58,8 @@ export const App = () => {
     <>
       <h1>Todos</h1>
       <ul>
-      {todos.map(t => (
-          <li className={'todo'}>{t.title}</li>
+      {todos.map((t, i) => (
+          <li className={'todo'} key={i}>{t.title}</li>
         ))}
       </ul>
       <button id={'add-todo'} onClick={addTodo}>
