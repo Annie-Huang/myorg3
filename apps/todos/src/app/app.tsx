@@ -1,4 +1,5 @@
 import React, {useEffect, useState} from 'react';
+import { Todo } from '@myorg3/data';
 
 import './app.css';
 
@@ -8,9 +9,9 @@ import star from './star.svg';
 import { Route, Link } from 'react-router-dom';
 
 
-interface Todo {
-  title: string;
-}
+// interface Todo {
+//   title: string;
+// }
 
 
 export const App = () => {
