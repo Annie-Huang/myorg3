@@ -37,7 +37,11 @@ C:\react\myorg3>nx generate @nrwl/react:application todos
   emotion           [ https://emotion.sh            ]
 ? Would you like to add React Router to this application? Yes
 
+
 C:\react\myorg3>nx serve todos
 C:\react\myorg3>nx e2e todos-e2e --watch
 C:\react\myorg3>nx e2e todos-e2e --headless
 C:\react\myorg3>npm install --save-dev @nrwl/express
+
+C:\react\myorg3>nx g @nrwl/express:app api --frontendProject=todos
+? In which directory should the node application be generated?        <<< Just click enter
