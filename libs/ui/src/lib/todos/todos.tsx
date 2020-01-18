@@ -3,8 +3,8 @@ import React from 'react';
 import './todos.css';
 import {Todo} from '@myorg3/data';
 
-/* eslint-disable-next-line */
-export interface TodosProps {}
+// /* eslint-disable-next-line */
+// export interface TodosProps {}
 
 // export const Todos = (props: TodosProps) => {
 //   return (

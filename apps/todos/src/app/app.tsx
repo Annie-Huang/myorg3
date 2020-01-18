@@ -7,6 +7,7 @@ import { ReactComponent as Logo } from './logo.svg';
 import star from './star.svg';
 
 import { Route, Link } from 'react-router-dom';
+import { Todos } from '@myorg3/ui';
 
 
 // interface Todo {
@@ -57,11 +58,14 @@ export const App = () => {
   return (
     <>
       <h1>Todos</h1>
-      <ul>
-      {todos.map((t, i) => (
-          <li className={'todo'} key={i}>{t.title}</li>
-        ))}
-      </ul>
+
+      {/*<ul>*/}
+      {/*{todos.map((t, i) => (*/}
+      {/*    <li className={'todo'} key={i}>{t.title}</li>*/}
+      {/*  ))}*/}
+      {/*</ul>*/}
+
+      <Todos todos={todos} />
       <button id={'add-todo'} onClick={addTodo}>
         Add Todo
       </button>
