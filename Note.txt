@@ -4,10 +4,9 @@ https://github.com/Annie-Huang/myorg3
 https://connect.nrwl.io/app/dashboard
 
 
-Up to https://nx.dev/react/tutorial/02-add-e2e-test
 
-C:\react\myorg3>nx serve todos        http://localhost:4200/
-
+C:\react\myorg3>nx serve todos              http://localhost:4200/
+C:\react\myorg3>nx e2e todos-e2e --watch
 
 ==================================================================================
 
@@ -39,3 +38,4 @@ C:\react\myorg3>nx generate @nrwl/react:application todos
 ? Would you like to add React Router to this application? Yes
 
 C:\react\myorg3>nx serve todos
+C:\react\myorg3>nx e2e todos-e2e --watch
