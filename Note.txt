@@ -5,6 +5,7 @@ https://connect.nrwl.io/app/dashboard
 
 C:\react\myorg3>nx serve todos              http://localhost:4200/
 C:\react\myorg3>nx e2e todos-e2e --watch
+C:\react\myorg3>nx serve api                http://localhost:3333/api
 
 
 
@@ -45,3 +46,18 @@ C:\react\myorg3>npm install --save-dev @nrwl/express
 
 C:\react\myorg3>nx g @nrwl/express:app api --frontendProject=todos
 ? In which directory should the node application be generated?        <<< Just click enter
+
+C:\react\myorg3>nx serve api
+
+
+
+
+
+
+
+
+
+
+
+
+
