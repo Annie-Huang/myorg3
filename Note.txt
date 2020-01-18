@@ -51,10 +51,35 @@ C:\react\myorg3>nx serve api
 
 
 
-
-
-
-
+You passed --frontendProject=todos when creating the node application, it creates in workspace.json:
+{
+  "version": 1,
+  "projects": {
+    "todos": {
+      ...
+      "architect": {
+        ...
+        "serve": {
+          "builder": "@nrwl/web:dev-server",
+          "options": {
+            "buildTarget": "todos:build",
+            "proxyConfig": "apps/todos/proxy.conf.json"
+          },
+          "configurations": {
+            "production": {
+              "buildTarget": "todos:build:production"
+            }
+          }
+        },
+        ...
+In proxy.conf.json:
+{
+  "/api": {
+    "target": "http://localhost:3333",
+    "secure": false
+  }
+}
+This configuration tells nx serve to forward all requests starting with /api to the process listening on port 3333.
 
 
 
