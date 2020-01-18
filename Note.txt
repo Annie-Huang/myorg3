@@ -85,4 +85,9 @@ This configuration tells nx serve to forward all requests starting with /api to 
 C:\react\myorg3>nx g @nrwl/workspace:lib data
 
 
+C:\react\myorg3>nx g @nrwl/react:lib ui
+Every library has an index.ts file, which defines its public API. Other applications and libraries should only
+access what the index.ts exports. Everything else in the library is private.
+
+
 
