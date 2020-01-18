@@ -82,7 +82,7 @@ In proxy.conf.json:
 This configuration tells nx serve to forward all requests starting with /api to the process listening on port 3333.
 
 
-
+C:\react\myorg3>nx g @nrwl/workspace:lib data
 
 
 
