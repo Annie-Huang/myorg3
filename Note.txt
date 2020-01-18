@@ -5,7 +5,7 @@ https://connect.nrwl.io/app/dashboard
 
 C:\react\myorg3>nx serve todos              http://localhost:4200/
 C:\react\myorg3>nx e2e todos-e2e --watch
-C:\react\myorg3>nx serve api                http://localhost:3333/api
+C:\react\myorg3>nx serve api                http://localhost:3333/api, http://localhost:3333/api/todos
 
 
 
