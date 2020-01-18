@@ -1,6 +1,12 @@
 https://nx.dev/react/tutorial/01-create-application
-https://github.com/Annie-Huang/myorg3
 
+https://github.com/Annie-Huang/myorg3
+https://connect.nrwl.io/app/dashboard
+
+
+Up to https://nx.dev/react/tutorial/02-add-e2e-test
+
+C:\react\myorg3>nx serve todos        http://localhost:4200/
 
 
 ==================================================================================
@@ -31,3 +37,5 @@ C:\react\myorg3>nx generate @nrwl/react:application todos
   styled-components [ https://styled-components.com ]
   emotion           [ https://emotion.sh            ]
 ? Would you like to add React Router to this application? Yes
+
+C:\react\myorg3>nx serve todos
