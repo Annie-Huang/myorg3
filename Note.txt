@@ -21,3 +21,13 @@ npx: installed 169 in 17.956s
 
 
 C:\react\myorg3>npm install --save-dev @nrwl/react
+
+C:\react\myorg3>nx generate @nrwl/react:application todos
+? Which stylesheet format would you like to use? (Use arrow keys)
+> CSS
+  SASS(.scss)       [ http://sass-lang.com          ]
+  Stylus(.styl)     [ http://stylus-lang.com        ]
+  LESS              [ http://lesscss.org            ]
+  styled-components [ https://styled-components.com ]
+  emotion           [ https://emotion.sh            ]
+? Would you like to add React Router to this application? Yes
