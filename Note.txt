@@ -41,3 +41,4 @@ C:\react\myorg3>nx generate @nrwl/react:application todos
 
 C:\react\myorg3>nx serve todos
 C:\react\myorg3>nx e2e todos-e2e --watch
+C:\react\myorg3>nx e2e todos-e2e --headless
