@@ -90,4 +90,6 @@ Every library has an index.ts file, which defines its public API. Other applicat
 access what the index.ts exports. Everything else in the library is private.
 
 
+C:\react\myorg3>nx g @nrwl/react:component todos --project=ui
+? Should this component be exported in the project? Yes
 
