@@ -1,0 +1,23 @@
+https://nx.dev/react/tutorial/01-create-application
+https://github.com/Annie-Huang/myorg3
+
+
+
+==================================================================================
+
+C:\react>npx create-nx-workspace@latest myorg3
+npx: installed 169 in 17.956s
+? What to create in the new workspace (Use arrow keys)
+> empty             [an empty workspace]
+  web components    [a workspace with a single app built using web components]
+  angular           [a workspace with a single Angular application]
+  angular-nest      [a workspace with a full stack application (Angular + Nest)]
+  react             [a workspace with a single React application]
+  react-express     [a workspace with a full stack application (React + Express)]
+  next.js           [a workspace with a single Next.js application]
+? CLI to power the Nx workspace       (Use arrow keys)
+> Nx           [Extensible CLI for JavaScript and TypeScript applications]
+  Angular CLI  [Extensible CLI for Angular applications. Recommended for Angular projects.]
+
+
+C:\react\myorg3>npm install --save-dev @nrwl/react
