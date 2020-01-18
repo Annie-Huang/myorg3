@@ -94,3 +94,9 @@ C:\react\myorg3>nx g @nrwl/react:component todos --project=ui
 ? Should this component be exported in the project? Yes
 
 C:\react\myorg3>nx dep-graph        http://localhost:4211/
+
+C:\react\myorg3>nx affected:apps
+C:\react\myorg3>nx affected:libs
+C:\react\myorg3>nx affected:test                        <<< to retest only the projects affected by the change.
+C:\react\myorg3>nx affected:test --only-failed          <<< to retest only the projects affected by the change.
+C:\react\myorg3>nx affected:test --parallel             <<< to test affected projects in parallel
