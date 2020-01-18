@@ -6,7 +6,7 @@ https://connect.nrwl.io/app/dashboard
 C:\react\myorg3>nx serve todos              http://localhost:4200/
 C:\react\myorg3>nx e2e todos-e2e --watch
 C:\react\myorg3>nx serve api                http://localhost:3333/api, http://localhost:3333/api/todos
-
+C:\react\myorg3>nx dep-graph                http://localhost:4211/
 
 
 ==================================================================================
@@ -93,3 +93,4 @@ access what the index.ts exports. Everything else in the library is private.
 C:\react\myorg3>nx g @nrwl/react:component todos --project=ui
 ? Should this component be exported in the project? Yes
 
+C:\react\myorg3>nx dep-graph        http://localhost:4211/
