@@ -1,5 +1,13 @@
 https://nx.dev/react/plugins/storybook/overview
 
+https://github.com/nrwl/nx/blob/master/packages/cypress/src/schematics/cypress-project/schema.json
+https://github.com/nrwl/nx/blob/master/packages/cypress/src/schematics/cypress-project/cypress-project.ts
+
+https://intellij-support.jetbrains.com/hc/en-us/community/posts/115000328124-Start-node-application-with-debug-on-a-fixed-port-OR-auto-attach-multiple-debuggers-
+C:\react\myorg3\node_modules\@nrwl\cypress\src\schematics\cypress-project\cypress-project.js (line 56)
+
+https://www.jetbrains.com/help/idea/run-debug-configuration-node-js-remote-debug.html
+
 ==========================================================
 
 C:\react\myorg3>npx nx generate @nrwl/react:lib testlib
@@ -15,3 +23,38 @@ Options:
 
 
 C:\react\myorg3>npm install @nrwl/storybook --save-dev
+
+
+C:\react\myorg3>npx nx generate @nrwl/react:storybook-configuration --name=testlib --configureCypress --dryRun
+...
+CREATE apps/testlib-e2e/tslint.json (42 bytes)    << But we want to use eslint because it's a react setup.
+...
+
+
+https://github.com/nrwl/nx/blob/master/packages/cypress/src/schematics/cypress-project/schema.json
+...
+    "linter": {
+      "description": "The tool to use for running lint checks.",
+      "type": "string",
+      "enum": ["eslint", "tslint"],
+      "default": "tslint"
+    },
+...
+
+https://github.com/nrwl/nx/blob/master/packages/cypress/src/schematics/cypress-project/cypress-project.ts
+Entry file is:
+export default function (options: CypressProjectSchema): Rule {
+  options = normalizeOptions(options);          <<< Want to inspect this value
+  ...
+}
+
+Set break point at line 56 of
+C:\react\myorg3\node_modules\@nrwl\cypress\src\schematics\cypress-project\cypress-project.js (line 56)
+
+C:\react\myorg3>node --inspect-brk node_modules\@nrwl\cli\bin\nx.js  generate @nrwl/react:storybook-configuration --name=testlib --configureCypress --dryRun
+Debugger listening on ws://127.0.0.1:9229/0c3df366-6f69-4abe-89b4-69bf2ac0e1e3
+For help, see: https://nodejs.org/en/docs/inspector
+
+
+
+
