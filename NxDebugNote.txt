@@ -1,5 +1,17 @@
+https://nx.dev/react/plugins/storybook/overview
 
+==========================================================
 
 C:\react\myorg3>npx nx generate @nrwl/react:lib testlib
 
+C:\react\myorg3>npx nx generate @nrwl/react:storybook-configuration --help
+nx generate @nrwl/react:storybook-configuration [name] [options,...]
+Options:
+  --name                  Library name
+  --configureCypress      Run the cypress-configure schematic
+  --js                    Generate JavaScript files rather than TypeScript files
+  --dryRun                undefined
+  --help                  Show available options for project target.
 
+
+C:\react\myorg3>npm install @nrwl/storybook --save-dev
