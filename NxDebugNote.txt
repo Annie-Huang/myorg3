@@ -1,0 +1,5 @@
+
+
+C:\react\myorg3>npx nx generate @nrwl/react:lib testlib
+
+

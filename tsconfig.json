@@ -17,7 +17,8 @@
     "baseUrl": ".",
     "paths": {
       "@myorg3/data": ["libs/data/src/index.ts"],
-      "@myorg3/ui": ["libs/ui/src/index.ts"]
+      "@myorg3/ui": ["libs/ui/src/index.ts"],
+      "@myorg3/testlib": ["libs/testlib/src/index.ts"]
     }
   },
   "exclude": ["node_modules", "tmp"]
